@@ -22,3 +22,19 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+ul {
+  text-align: left;
+}
+
+li {
+  list-style: none;
+}
+
+.Change-name {
+  padding-top: 10px;
+}
+
+.Load-todo {
+  padding-top: 10px;
+}

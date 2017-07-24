@@ -15,7 +15,7 @@ class TodoView extends Component {
                     />
                 { todo.task }
                 { todo.assignee
-                    ? <small>{ todo.assignee.name }</small>
+                    ? <small><b> { todo.assignee.name }</b></small>
                     : null
                 }
             </li>
